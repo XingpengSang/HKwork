@@ -1,0 +1,6 @@
+dat <- read.csv("Q1_sales.csv")
+fit <- lm(WEEKLY_SALES ~ ADVERTISING_BUDGET, data = dat)
+summary(fit)
+par(mfrow = c(1, 2))
+plot(fit, which = 1)
+plot(fit, which = 2)

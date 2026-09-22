@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "PublicService_WebGIS",
+			"path": "../groupwork/PublicService_WebGIS"
+		}
+	],
+	"settings": {}
+}
